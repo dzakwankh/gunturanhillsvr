@@ -1,0 +1,99 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "daki_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 89.99999999999999,
+	        "minpan": 0,
+	        "mintilt": -89.99999999999999
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "g1.html",
+	            "opacity": "1.00;1.00",
+	            "position": "18.2812,-3.6161",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "tempat kemah"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "p3.html",
+	            "opacity": "1.00;1.00",
+	            "position": "174.3750,9.3750",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "pos 3"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "daki",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"daki_tiles/daki_t_1b_%y_%x.jpg"},"down":{"src":"daki_tiles/daki_t_1d_%y_%x.jpg"},"front":{"src":"daki_tiles/daki_t_1f_%y_%x.jpg"},"height":1711,"left":{"src":"daki_tiles/daki_t_1l_%y_%x.jpg"},"right":{"src":"daki_tiles/daki_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"daki_tiles/daki_t_1u_%y_%x.jpg"},"width":1711},{"back":{"src":"daki_tiles/daki_t_2b_%y_%x.jpg"},"down":{"src":"daki_tiles/daki_t_2d_%y_%x.jpg"},"front":{"src":"daki_tiles/daki_t_2f_%y_%x.jpg"},"height":856,"left":{"src":"daki_tiles/daki_t_2l_%y_%x.jpg"},"right":{"src":"daki_tiles/daki_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"daki_tiles/daki_t_2u_%y_%x.jpg"},"width":856},{"back":{"src":"daki_tiles/daki_t_3b_%y_%x.jpg"},"down":{"src":"daki_tiles/daki_t_3d_%y_%x.jpg"},"front":{"src":"daki_tiles/daki_t_3f_%y_%x.jpg"},"height":428,"left":{"src":"daki_tiles/daki_t_3l_%y_%x.jpg"},"right":{"src":"daki_tiles/daki_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"daki_tiles/daki_t_3u_%y_%x.jpg"},"width":428}],"multilevel":true,"preview":{"src":"daki_tiles/daki_preview.jpg"},"projection":"cubic"},
+	"lensflare": [
+	        {
+	            "brightening": 1,
+	            "pan": 249.1071428571426,
+	            "scale": 1,
+	            "tilt": -43.39285714285713,
+	            "type": 3
+	        }
+	    ],
+	"view": {
+	        "hfov": 90,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}
